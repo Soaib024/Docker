@@ -20,4 +20,14 @@ Pulling a image `docker image pull <repository>:<tag>`
 
 Filtering docker image ls `docker image ls --filter dangling=true`
 
-checking docker status `service docker status`, `systemctl is-active docker`
+Checking docker status `service docker status`, `systemctl is-active docker`
+
+Building a image `docker image build -t web:latest .`
+
+Changing tag of image `docker image tag web:latest nigelpoulton/web:latest`
+
+Pushing image to default registry `docker image push soaib024/web:latest`
+
+History of docker build `docker image history web:latest`
+
+Image inspect `docker image inspect`
